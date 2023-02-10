@@ -1,0 +1,66 @@
+.Checkout{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 99999;
+    background-color: #eee;
+    font-size: 50rem;
+    padding: 20rem;
+}
+.Cross{
+    color: black;
+    font-size: 36rem;
+
+}
+.MealsDESC {
+    background-color:#fff;
+    padding: 0 20rem;
+    border-radius: 20rem;
+}
+.Header {
+    display: flex;
+    border-bottom: 1px solid #f2f2f2;
+    height: 80rem;
+    align-items: center;
+    font-size: 24rem;
+    background-color: #bfa;
+}
+.Title{
+    border-bottom: 1rem solid #f2f2f2;
+    font-size: 28rem;
+}
+
+.Footer{
+    position: relative;
+    height:120rem;
+    border-top: 1rem #f2f2f2 dashed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 25rem;
+    font-weight: bold;
+}
+.Footer::before,
+.Footer::after{
+    content: '';
+    position: absolute;
+    width:20rem;
+    height:20rem;
+    background-color: #eee;
+    border-radius: 50%;
+    top:-10rem;
+    left:-30rem;
+}
+.Footer::after{
+    left: auto;
+    right:-30rem;
+}
+
+.TotalPrice::before{
+    content: '合计 ￥';
+    font-weight: bold;
+    font-size:18rem;
+}
+

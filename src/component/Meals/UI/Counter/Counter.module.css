@@ -1,0 +1,33 @@
+.Counter{
+    display: flex;
+
+    font-size: 32rem;
+    align-items: center;
+    vertical-align: middle;
+}
+.Add{
+    border: none;
+    background-color: #FDBA49;
+    width: 32rem;
+    height:32rem;
+    border-radius: 50%;
+    line-height: 36rem;
+    font-size: 24rem;
+    padding: 0;
+    margin-left: 10rem;
+}
+
+.Sub{
+    border: 1rem black solid;
+    background-color: white;
+    width: 32rem;
+    height:32rem;
+    line-height: 32rem;
+    border-radius: 50%;
+    font-size: 28rem;
+    padding: 0;
+    margin-right: 10rem;
+}
+.Amount{
+    height:36rem;
+}
